@@ -1,2 +1,3 @@
 */target/
 */*.lock
+random_number_generation/*/target/
