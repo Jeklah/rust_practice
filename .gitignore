@@ -2,5 +2,5 @@
 */*.lock
 algorithms/random_number_generation/*/*.lock
 algorithms/random_number_generation/*/target/
-algorithms/*/*/target/
-algorithms/*/*.lock
+algorithms/vectors/*/target/
+algorithms/vectors/*.lock
