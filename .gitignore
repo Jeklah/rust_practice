@@ -1,4 +1,6 @@
 */target/
 */*.lock
 algorithms/random_number_generation/*/*.lock
-algorithms/random_number_generation/*/target/*
+algorithms/random_number_generation/*/target/
+algorithms/*/*/target/
+algorithms/*/*.lock
