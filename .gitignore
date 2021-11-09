@@ -1,3 +1,4 @@
 */target/
 */*.lock
 random_number_generation/*/target/
+random_number_generation/*/*.lock
