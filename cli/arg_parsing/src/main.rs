@@ -15,7 +15,7 @@ fn main() {
             .long("name")
             .takes_value(true)
             .help("Five less thsn your favourite number."))
-        .get_matches()
+        .get_matches();
 
     let myfile = matches.value_of("file").unwrap_or("input.txt");
     println!("The file passed is: {}", myfile);
@@ -24,7 +24,7 @@ fn main() {
     match num_str {
         None => println!("No idea what your favourite number is."),
         Some(s) => {
-            match.s.parse::<i32>() {
+            match s.parse::<i32>() {
                 Ok(n) => println!("Your favourite number must be {}.", n+5),
                 Err(_) => println!("That's not a number! {}", s),
             }
