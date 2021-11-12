@@ -4,3 +4,5 @@ algorithms/random_number_generation/*/*.lock
 algorithms/random_number_generation/*/target/
 algorithms/vectors/*/target/
 algorithms/vectors/*/*.lock
+cli/*/Cargo.lock
+cli/*/target/
