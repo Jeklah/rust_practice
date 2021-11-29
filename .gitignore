@@ -6,3 +6,5 @@ algorithms/vectors/*/target/
 algorithms/vectors/*/*.lock
 cli/*/Cargo.lock
 cli/*/target/
+cli/*/**/Cargo.lock
+cli/*/**/target/
